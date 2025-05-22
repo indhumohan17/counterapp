@@ -103,18 +103,20 @@
                     font-size: 2.8rem;
                     position: relative;
                     flex: 1 1 calc(50% - 40px);
-                    left: -5rem;
-                    right: 1rem;
+                    top: -1 .3rem;
+                    left: -7rem;
+                    right: 2rem;
                 }
-                .btn-primary, .btn-dark, .btn-success {
+                 .btn-dark{
                     width: 90%;
                     border: none;
                     display: block;
+                    margin-top: -1rem;
                     margin: 0.5rem auto;
                     padding: 14px 0;
-                    position: relative;
+                    
                     font-size: 1.1rem;
-                    margin: 0.5rem auto;
+
                 }
             }
             @media screen and (max-width: 480px) {
@@ -125,20 +127,77 @@
                     flex: 1 1 calc(100% - 40px);
                     font-size: 2rem;
                     position: relative;
-                    bottom: 0;
-                    left: 0;
-                    right: 100rem;
+                    
+                    right: 1rem;
+                   
                     text-align: center;
                     margin: 0 auto;
                 }
-                .btn-primary, .btn-dark, .btn-success {
+                 .btn-dark {
                     width: 100%;
                     margin: 0.5rem 0;
-                    position: relative;
-                    font-size: 100.2rem;
+                 
+                    margin-top: -10rem;  
+                    font-size: 1.2rem;
                     padding: 14px 0;
                 }
+                
+               
             }
+            @media screen and (min-width: 480px) {
+                .card-container .card {
+                    flex: 1 1 calc(50% - 40px);
+                }
+                .color-container h1 {
+                    flex: 1 1 calc(50% - 40px);
+                    font-size: 2.8rem;
+                    position: relative;
+                    top: -2.3rem;
+                    left: -5rem;
+                    right: 1rem;
+                }
+                 .btn-dark{
+                    width: 90%;
+                    border: none;
+                    display: block;
+                    margin-top: -2rem;
+                    margin: 0.5rem auto;
+                    padding: 14px 0;
+              
+                    font-size: 1.1rem;
+
+                }
+            }
+
+            @media screen and (max-width:358px) {
+                .card-container .card {
+                    flex: 1 1 calc(100% - 40px);
+                }
+                .color-container h1 {
+                    flex: 1 1 calc(100% - 40px);
+                    font-size: 2rem;
+                    position: relative;
+                    
+                    right: 1rem;
+                   
+                    text-align: center;
+                    margin: 0 auto;
+                }
+                 .btn-dark {
+                    width: 100%;
+                    margin: 0.5rem 0;
+                  
+                    margin-top: -1rem;  
+                    font-size: 1.2rem;
+                    padding: 14px 0;
+                }
+                
+               
+            }
+             
+          .btn-dark {
+            margin-top: 50rem;
+          }
             .card-animate {
                 transition: transform 0.3s;
             }
