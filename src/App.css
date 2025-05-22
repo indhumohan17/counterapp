@@ -194,10 +194,114 @@
                 
                
             }
-             
-          .btn-dark {
-            margin-top: 50rem;
-          }
+
+
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .color-container h1 {
+    font-size: 2rem;
+    flex: 1 1 100%;
+    position: relative;
+    right: 0;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .btn-dark, .btn-primary, .btn-success {
+    width: 100%;
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+    padding: 14px 0;
+    display: block;
+  }
+  .card-container .card {
+    flex: 1 1 100%;
+    margin: 10px 0;
+  }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+  .color-container h1 {
+    font-size: 2.8rem;
+    position: relative;
+    flex: 1 1 calc(50% - 40px);
+    top: -1.3rem;
+    left: -7rem;
+    right: 2rem;
+  }
+  .btn-dark, .btn-primary, .btn-success {
+    width: 90%;
+    border: none;
+    display: block;
+    margin-top: -1rem;
+    margin: 0.5rem auto;
+    padding: 14px 0;
+    font-size: 1.1rem;
+  }
+  .card-container .card {
+    flex: 1 1 calc(50% - 40px);
+  }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+  .color-container h1 {
+    flex: 1 1 calc(50% - 40px);
+    font-size: 2.8rem;
+    position: relative;
+    top: -2.3rem;
+    left: -5rem;
+    right: 1rem;
+  }
+  .btn-dark, .btn-primary, .btn-success {
+    width: 90%;
+    border: none;
+    display: block;
+    margin-top: -2rem;
+    margin: 0.5rem auto;
+    padding: 14px 0;
+    font-size: 1.1rem;
+  }
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .color-container h1 {
+    font-size: 3rem;
+    margin-left: 0;
+  }
+  .btn-dark, .btn-primary, .btn-success {
+    width: 100%;
+    margin: 0.5rem 0;
+    margin-top: -1rem;
+    font-size: 1.2rem;
+    padding: 14px 0;
+  }
+}
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { 
+  .color-container h1 {
+    font-size: 3rem;
+    margin-left: 0;
+  }
+  .btn-dark, .btn-primary, .btn-success {
+    width: 100%;
+    margin: 0.5rem 0;
+    margin-top: -1rem;
+    font-size: 1.2rem;
+    padding: 14px 0;
+  }
+ }
+
+
+/* // XX-Large devices (larger desktops) */
+/* // No media query since the xxl breakpoint has no upper bound on its width// */
+            
+            
+
+
             .card-animate {
                 transition: transform 0.3s;
             }
