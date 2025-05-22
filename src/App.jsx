@@ -31,9 +31,9 @@ function App() {
         
         <h1 ref={counterRef} className='mt-3 mb-4'>{count}</h1>
        
-        <button onClick={() => handleSetCount(count + 1)} className="btn btn-primary m-2" style={{ width: '8rem', borderRadius:'0.2rem' }}>Increment</button>
-        <button onClick={() => handleSetCount(count - 1)} className="btn btn-dark m-2 " style={{ width: '8rem' , borderRadius:'0.2rem',position:'absolute', bottom:'8.6rem', left:'10.7rem' }}>Decrement</button>
-        <button onClick={() => handleSetCount(0)} className="btn btn-success mt-3 " style={{ width: '15rem', borderRadius:'0.2rem', marginLeft:'1.2rem' }}>Reset</button>
+        <button onClick={() => handleSetCount(count + 1)} className="btn btn-primary card m-2" style={{ width: '8rem', borderRadius:'0.2rem' }}>Increment</button>
+        <button onClick={() => handleSetCount(count - 1)} className="btn btn-dark card m-2" style={{ width: '8rem' , borderRadius:'0.2rem',position:'absolute', bottom:'8.6rem', left:'10.7rem' }}>Decrement</button>
+        <button onClick={() => handleSetCount(0)} className="btn btn-success card mt-3" style={{ width: '15rem', borderRadius:'0.2rem', marginLeft:'1.2rem' }}>Reset</button>
          <p style={{  fontSize: '1.2rem', color: '#555', textShadow: '1px 1px 2px #ccc' }}>
         <span style={{ fontStyle: 'italic', color: '#888', bottom: '0', position: 'relative', top: '1rem',  }}>  (Pssst, you can change this value)</span>
 

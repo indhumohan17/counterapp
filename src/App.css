@@ -94,7 +94,7 @@
                 flex: 1 1 calc(33% - 40px);
                 margin: 10px;
             }
-            @media (max-width: 768px) {
+            @media screen and (max-width: 768px) {
                 .card-container .card {
                     flex: 1 1 calc(50% - 40px);
                 }
@@ -106,8 +106,18 @@
                     left: -5rem;
                     right: 1rem;
                 }
+                .btn-primary, .btn-dark, .btn-success {
+                    width: 90%;
+                    border: none;
+                    display: block;
+                    margin: 0.5rem auto;
+                    padding: 14px 0;
+                    position: relative;
+                    font-size: 1.1rem;
+                    margin: 0.5rem auto;
+                }
             }
-            @media (max-width: 480px) {
+            @media screen and (max-width: 480px) {
                 .card-container .card {
                     flex: 1 1 calc(100% - 40px);
                 }
@@ -120,6 +130,13 @@
                     right: 100rem;
                     text-align: center;
                     margin: 0 auto;
+                }
+                .btn-primary, .btn-dark, .btn-success {
+                    width: 100%;
+                    margin: 0.5rem 0;
+                    position: relative;
+                    font-size: 100.2rem;
+                    padding: 14px 0;
                 }
             }
             .card-animate {
