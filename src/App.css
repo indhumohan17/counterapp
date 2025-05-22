@@ -47,7 +47,8 @@
           .color-container h1{
            
             flex: 1 1 calc(33% - 40px);
-        
+            display: inline-block;
+            animation: counter-bounce 0.4s cubic-bezier(0.23, 1, 0.32, 1);
             font-size: 3rem;
             font-weight: bold;
             margin: 10px 0;
@@ -98,8 +99,12 @@
                     flex: 1 1 calc(50% - 40px);
                 }
                 .color-container h1 {
-                     flex: 1 1 calc(50% - 40px);
-                    font-size: 2.5rem;
+                   
+                    font-size: 2.8rem;
+                    position: relative;
+                    flex: 1 1 calc(50% - 40px);
+                    left: -5rem;
+                    right: 1rem;
                 }
             }
             @media (max-width: 480px) {
@@ -109,6 +114,12 @@
                 .color-container h1 {
                     flex: 1 1 calc(100% - 40px);
                     font-size: 2rem;
+                    position: relative;
+                    bottom: 0;
+                    left: 0;
+                    right: 100rem;
+                    text-align: center;
+                    margin: 0 auto;
                 }
             }
             .card-animate {
